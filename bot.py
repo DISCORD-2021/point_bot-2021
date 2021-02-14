@@ -181,5 +181,6 @@ async def on_reaction_add(reaction, user):
     if str(reaction.emoji) == "💷":
         await reaction.message.channel.send(user.name + "님이 💴 등급 UP! 아이템을 구매")
 
-
-client.run("ODA1MDY0Mjc4NDY5MTE1OTA1.YBVciQ.knxd49yeesq6UmjSRg3yOAyKJsI")
+       
+acces_token = os.environ["BOT_TOKEN"]
+client.run("acces_token")
