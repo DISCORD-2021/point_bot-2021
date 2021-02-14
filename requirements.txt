@@ -1,2 +1,6 @@
 discord.py
 asyncio
+openpyxl
+time
+datetime
+os
